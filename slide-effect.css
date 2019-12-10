@@ -17,3 +17,22 @@ img {
     transform: rotateZ(-20deg);
     transform: rotateX(-20deg);
 }
+
+@media (max-width: 768px){
+
+    .opisy_imprez {
+        width: 100%;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        /*text-overflow: ellipsis;*/
+        -webkit-line-clamp: 3;    
+    }
+
+    .opisy_imprez:hover {
+        /*text-overflow: unset;*/
+        -webkit-line-clamp: unset;
+    }
+    
+}
+
