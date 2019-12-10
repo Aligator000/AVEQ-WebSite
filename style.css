@@ -378,3 +378,30 @@ body {
   border: 1px solid white;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .first {
+      order: 1;
+  }
+  .second {
+      order: 2;
+  }
+  .third {
+      order: 4;
+  }
+  .fourth {
+      order: 3;
+  }
+  .fifth {
+    order: 5;
+  }
+  .sixth {
+    order: 6;
+  }
+  .seventh {
+    order: 8;
+  }
+  .eighth {
+    order: 7;
+  }
+}
